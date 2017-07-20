@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E020BFEE1F20FDD4009F2DE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020BFED1F20FDD4009F2DE1 /* AppDelegate.swift */; };
+		E020BFF01F20FDD4009F2DE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020BFEF1F20FDD4009F2DE1 /* ViewController.swift */; };
+		E020BFF31F20FDD4009F2DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E020BFF11F20FDD4009F2DE1 /* Main.storyboard */; };
+		E020BFF51F20FDD4009F2DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E020BFF41F20FDD4009F2DE1 /* Assets.xcassets */; };
+		E020BFF81F20FDD4009F2DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E020BFF61F20FDD4009F2DE1 /* LaunchScreen.storyboard */; };
+		E020C0031F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020C0021F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1Tests.swift */; };
+		E020C00E1F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E020C00D1F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E020BFFF1F20FDD4009F2DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E020BFE21F20FDD4009F2DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E020BFE91F20FDD4009F2DE1;
+			remoteInfo = "Training iOS HoaLT Exercise 1";
+		};
+		E020C00A1F20FDD4009F2DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E020BFE21F20FDD4009F2DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E020BFE91F20FDD4009F2DE1;
+			remoteInfo = "Training iOS HoaLT Exercise 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E020BFEA1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Training iOS HoaLT Exercise 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020BFED1F20FDD4009F2DE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E020BFEF1F20FDD4009F2DE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E020BFF21F20FDD4009F2DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E020BFF41F20FDD4009F2DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E020BFF71F20FDD4009F2DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E020BFF91F20FDD4009F2DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E020BFFE1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Training iOS HoaLT Exercise 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020C0021F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training_iOS_HoaLT_Exercise_1Tests.swift; sourceTree = "<group>"; };
+		E020C0041F20FDD4009F2DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E020C0091F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Training iOS HoaLT Exercise 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020C00D1F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training_iOS_HoaLT_Exercise_1UITests.swift; sourceTree = "<group>"; };
+		E020C00F1F20FDD4009F2DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E020BFE71F20FDD4009F2DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020BFFB1F20FDD4009F2DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020C0061F20FDD4009F2DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E020BFE11F20FDD4009F2DE1 = {
+			isa = PBXGroup;
+			children = (
+				E020BFEC1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1 */,
+				E020C0011F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1Tests */,
+				E020C00C1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1UITests */,
+				E020BFEB1F20FDD4009F2DE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E020BFEB1F20FDD4009F2DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E020BFEA1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1.app */,
+				E020BFFE1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1Tests.xctest */,
+				E020C0091F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E020BFEC1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1 */ = {
+			isa = PBXGroup;
+			children = (
+				E020BFED1F20FDD4009F2DE1 /* AppDelegate.swift */,
+				E020BFEF1F20FDD4009F2DE1 /* ViewController.swift */,
+				E020BFF11F20FDD4009F2DE1 /* Main.storyboard */,
+				E020BFF41F20FDD4009F2DE1 /* Assets.xcassets */,
+				E020BFF61F20FDD4009F2DE1 /* LaunchScreen.storyboard */,
+				E020BFF91F20FDD4009F2DE1 /* Info.plist */,
+			);
+			path = "Training iOS HoaLT Exercise 1";
+			sourceTree = "<group>";
+		};
+		E020C0011F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E020C0021F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1Tests.swift */,
+				E020C0041F20FDD4009F2DE1 /* Info.plist */,
+			);
+			path = "Training iOS HoaLT Exercise 1Tests";
+			sourceTree = "<group>";
+		};
+		E020C00C1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E020C00D1F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1UITests.swift */,
+				E020C00F1F20FDD4009F2DE1 /* Info.plist */,
+			);
+			path = "Training iOS HoaLT Exercise 1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E020BFE91F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E020C0121F20FDD4009F2DE1 /* Build configuration list for PBXNativeTarget "Training iOS HoaLT Exercise 1" */;
+			buildPhases = (
+				E020BFE61F20FDD4009F2DE1 /* Sources */,
+				E020BFE71F20FDD4009F2DE1 /* Frameworks */,
+				E020BFE81F20FDD4009F2DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Training iOS HoaLT Exercise 1";
+			productName = "Training iOS HoaLT Exercise 1";
+			productReference = E020BFEA1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E020BFFD1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E020C0151F20FDD4009F2DE1 /* Build configuration list for PBXNativeTarget "Training iOS HoaLT Exercise 1Tests" */;
+			buildPhases = (
+				E020BFFA1F20FDD4009F2DE1 /* Sources */,
+				E020BFFB1F20FDD4009F2DE1 /* Frameworks */,
+				E020BFFC1F20FDD4009F2DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E020C0001F20FDD4009F2DE1 /* PBXTargetDependency */,
+			);
+			name = "Training iOS HoaLT Exercise 1Tests";
+			productName = "Training iOS HoaLT Exercise 1Tests";
+			productReference = E020BFFE1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E020C0081F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E020C0181F20FDD4009F2DE1 /* Build configuration list for PBXNativeTarget "Training iOS HoaLT Exercise 1UITests" */;
+			buildPhases = (
+				E020C0051F20FDD4009F2DE1 /* Sources */,
+				E020C0061F20FDD4009F2DE1 /* Frameworks */,
+				E020C0071F20FDD4009F2DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E020C00B1F20FDD4009F2DE1 /* PBXTargetDependency */,
+			);
+			name = "Training iOS HoaLT Exercise 1UITests";
+			productName = "Training iOS HoaLT Exercise 1UITests";
+			productReference = E020C0091F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E020BFE21F20FDD4009F2DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vinh Dang Duc";
+				TargetAttributes = {
+					E020BFE91F20FDD4009F2DE1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JG8ZC98S7M;
+						ProvisioningStyle = Automatic;
+					};
+					E020BFFD1F20FDD4009F2DE1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JG8ZC98S7M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E020BFE91F20FDD4009F2DE1;
+					};
+					E020C0081F20FDD4009F2DE1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JG8ZC98S7M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E020BFE91F20FDD4009F2DE1;
+					};
+				};
+			};
+			buildConfigurationList = E020BFE51F20FDD4009F2DE1 /* Build configuration list for PBXProject "Training iOS HoaLT Exercise 1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E020BFE11F20FDD4009F2DE1;
+			productRefGroup = E020BFEB1F20FDD4009F2DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E020BFE91F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1 */,
+				E020BFFD1F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1Tests */,
+				E020C0081F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E020BFE81F20FDD4009F2DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020BFF81F20FDD4009F2DE1 /* LaunchScreen.storyboard in Resources */,
+				E020BFF51F20FDD4009F2DE1 /* Assets.xcassets in Resources */,
+				E020BFF31F20FDD4009F2DE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020BFFC1F20FDD4009F2DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020C0071F20FDD4009F2DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E020BFE61F20FDD4009F2DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020BFF01F20FDD4009F2DE1 /* ViewController.swift in Sources */,
+				E020BFEE1F20FDD4009F2DE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020BFFA1F20FDD4009F2DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020C0031F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E020C0051F20FDD4009F2DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E020C00E1F20FDD4009F2DE1 /* Training_iOS_HoaLT_Exercise_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E020C0001F20FDD4009F2DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E020BFE91F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1 */;
+			targetProxy = E020BFFF1F20FDD4009F2DE1 /* PBXContainerItemProxy */;
+		};
+		E020C00B1F20FDD4009F2DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E020BFE91F20FDD4009F2DE1 /* Training iOS HoaLT Exercise 1 */;
+			targetProxy = E020C00A1F20FDD4009F2DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E020BFF11F20FDD4009F2DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E020BFF21F20FDD4009F2DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E020BFF61F20FDD4009F2DE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E020BFF71F20FDD4009F2DE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E020C0101F20FDD4009F2DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E020C0111F20FDD4009F2DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E020C0131F20FDD4009F2DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JG8ZC98S7M;
+				INFOPLIST_FILE = "Training iOS HoaLT Exercise 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinhdd.Training-iOS-HoaLT-Exercise-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E020C0141F20FDD4009F2DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JG8ZC98S7M;
+				INFOPLIST_FILE = "Training iOS HoaLT Exercise 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinhdd.Training-iOS-HoaLT-Exercise-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E020C0161F20FDD4009F2DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JG8ZC98S7M;
+				INFOPLIST_FILE = "Training iOS HoaLT Exercise 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinhdd.Training-iOS-HoaLT-Exercise-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Training iOS HoaLT Exercise 1.app/Training iOS HoaLT Exercise 1";
+			};
+			name = Debug;
+		};
+		E020C0171F20FDD4009F2DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JG8ZC98S7M;
+				INFOPLIST_FILE = "Training iOS HoaLT Exercise 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinhdd.Training-iOS-HoaLT-Exercise-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Training iOS HoaLT Exercise 1.app/Training iOS HoaLT Exercise 1";
+			};
+			name = Release;
+		};
+		E020C0191F20FDD4009F2DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JG8ZC98S7M;
+				INFOPLIST_FILE = "Training iOS HoaLT Exercise 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinhdd.Training-iOS-HoaLT-Exercise-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Training iOS HoaLT Exercise 1";
+			};
+			name = Debug;
+		};
+		E020C01A1F20FDD4009F2DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JG8ZC98S7M;
+				INFOPLIST_FILE = "Training iOS HoaLT Exercise 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinhdd.Training-iOS-HoaLT-Exercise-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Training iOS HoaLT Exercise 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E020BFE51F20FDD4009F2DE1 /* Build configuration list for PBXProject "Training iOS HoaLT Exercise 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020C0101F20FDD4009F2DE1 /* Debug */,
+				E020C0111F20FDD4009F2DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E020C0121F20FDD4009F2DE1 /* Build configuration list for PBXNativeTarget "Training iOS HoaLT Exercise 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020C0131F20FDD4009F2DE1 /* Debug */,
+				E020C0141F20FDD4009F2DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E020C0151F20FDD4009F2DE1 /* Build configuration list for PBXNativeTarget "Training iOS HoaLT Exercise 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020C0161F20FDD4009F2DE1 /* Debug */,
+				E020C0171F20FDD4009F2DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E020C0181F20FDD4009F2DE1 /* Build configuration list for PBXNativeTarget "Training iOS HoaLT Exercise 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E020C0191F20FDD4009F2DE1 /* Debug */,
+				E020C01A1F20FDD4009F2DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E020BFE21F20FDD4009F2DE1 /* Project object */;
+}
