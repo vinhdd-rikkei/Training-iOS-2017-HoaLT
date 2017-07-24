@@ -14,6 +14,7 @@
 		E029AD2A1F218C310048E049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E029AD281F218C310048E049 /* LaunchScreen.storyboard */; };
 		E029AD351F218C310048E049 /* Training_iOS_HoaLT_Exercise_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029AD341F218C310048E049 /* Training_iOS_HoaLT_Exercise_2Tests.swift */; };
 		E029AD401F218C310048E049 /* Training_iOS_HoaLT_Exercise_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029AD3F1F218C310048E049 /* Training_iOS_HoaLT_Exercise_2UITests.swift */; };
+		E06E851E1F2583C400E76D1B /* RatioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06E851D1F2583C400E76D1B /* RatioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E029AD3B1F218C310048E049 /* Training iOS HoaLT Exercise 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Training iOS HoaLT Exercise 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E029AD3F1F218C310048E049 /* Training_iOS_HoaLT_Exercise_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training_iOS_HoaLT_Exercise_2UITests.swift; sourceTree = "<group>"; };
 		E029AD411F218C310048E049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06E851D1F2583C400E76D1B /* RatioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,11 @@
 		E029AD1E1F218C310048E049 /* Training iOS HoaLT Exercise 2 */ = {
 			isa = PBXGroup;
 			children = (
+				E06E851F1F2583CF00E76D1B /* Application */,
 				E029AD1F1F218C310048E049 /* AppDelegate.swift */,
 				E029AD211F218C310048E049 /* ViewController.swift */,
 				E029AD231F218C310048E049 /* Main.storyboard */,
-				E029AD261F218C310048E049 /* Assets.xcassets */,
-				E029AD281F218C310048E049 /* LaunchScreen.storyboard */,
-				E029AD2B1F218C310048E049 /* Info.plist */,
+				E06E851D1F2583C400E76D1B /* RatioView.swift */,
 			);
 			path = "Training iOS HoaLT Exercise 2";
 			sourceTree = "<group>";
@@ -123,6 +124,16 @@
 				E029AD411F218C310048E049 /* Info.plist */,
 			);
 			path = "Training iOS HoaLT Exercise 2UITests";
+			sourceTree = "<group>";
+		};
+		E06E851F1F2583CF00E76D1B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E029AD261F218C310048E049 /* Assets.xcassets */,
+				E029AD281F218C310048E049 /* LaunchScreen.storyboard */,
+				E029AD2B1F218C310048E049 /* Info.plist */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			files = (
 				E029AD221F218C310048E049 /* ViewController.swift in Sources */,
 				E029AD201F218C310048E049 /* AppDelegate.swift in Sources */,
+				E06E851E1F2583C400E76D1B /* RatioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -419,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JG8ZC98S7M;
 				INFOPLIST_FILE = "Training iOS HoaLT Exercise 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vinhdd.Training-iOS-HoaLT-Exercise-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JG8ZC98S7M;
 				INFOPLIST_FILE = "Training iOS HoaLT Exercise 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vinhdd.Training-iOS-HoaLT-Exercise-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +530,7 @@
 				E029AD461F218C310048E049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E029AD471F218C310048E049 /* Build configuration list for PBXNativeTarget "Training iOS HoaLT Exercise 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				E029AD491F218C310048E049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E029AD4A1F218C310048E049 /* Build configuration list for PBXNativeTarget "Training iOS HoaLT Exercise 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				E029AD4C1F218C310048E049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
