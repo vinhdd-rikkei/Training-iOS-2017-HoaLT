@@ -106,15 +106,16 @@ extension ViewController: UITextFieldDelegate {
         if textField.isFirstResponder {
             textField.resignFirstResponder()
         }
-        
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
         if textField == self.emailTf, let text = textField.text, text != "" {
             if !self.isEmail(string: text) {
                 self.showQuickAlertWith(title: "Lỗi", message: "Email sai định dạng")
                 self.emailTf.text = nil
             }
         }
-        
-        return true
     }
 }
 
