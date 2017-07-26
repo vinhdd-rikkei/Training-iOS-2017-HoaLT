@@ -7,6 +7,8 @@
 //
 
 #import "YelpClient.h"
+#import "BDBOAuth1SessionManager.h"
+#import "AFNetworking.h"
 
 @implementation YelpClient
 
@@ -14,13 +16,13 @@
     NSURL *baseURL = [NSURL URLWithString:@"http://api.yelp.com/v2/"];
     self = [super initWithBaseURL:baseURL consumerKey:consumerKey consumerSecret:consumerSecret];
     if (self) {
-        BDBOAuthToken *token = [BDBOAuthToken tokenWithToken:accessToken secret:accessSecret expiration:nil];
+        BDBOAuth1Credential *token = [BDBOAuth1Credential credentialWithToken:accessToken secret:accessSecret expiration:NULL];
         [self.requestSerializer saveAccessToken:token];
     }
     return self;
 }
 
-- (AFHTTPRequestOperation *)searchWithTerm:(NSString *)term success:(void (^)(AFHTTPRequestOperation *operation, id response))success failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure {
+- (AFHTTPRequestSerializer *)searchWithTerm:(NSString *)term success:(void (^)(NSURLSessionDataTask *task, id responseObject))success failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure {
     
     // For additional parameters, see http://www.yelp.com/developers/documentation/v2/search_api
     NSDictionary *parameters = @{@"term": term, @"ll" : @"37.774866,-122.394556"};

@@ -26,6 +26,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    [super awakeFromNib];
     self.thumbImageView.layer.cornerRadius = 3;
     self.thumbImageView.clipsToBounds = YES;
 }

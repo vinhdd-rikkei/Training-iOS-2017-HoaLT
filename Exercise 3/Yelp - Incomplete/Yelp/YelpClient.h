@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BDBOAuth1RequestOperationManager.h"
+#import "BDBOAuth1SessionManager.h"
 
-@interface YelpClient : BDBOAuth1RequestOperationManager
+@interface YelpClient : BDBOAuth1SessionManager
 
 - (id)initWithConsumerKey:(NSString *)consumerKey consumerSecret:(NSString *)consumerSecret accessToken:(NSString *)accessToken accessSecret:(NSString *)accessSecret;
 
-- (AFHTTPRequestOperation *)searchWithTerm:(NSString *)term success:(void (^)(AFHTTPRequestOperation *operation, id response))success failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
+- (AFHTTPRequestSerializer *)searchWithTerm:(NSString *)term success:(void (^)(NSURLSessionDataTask *task, id responseObject))success failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure;
 
 @end
